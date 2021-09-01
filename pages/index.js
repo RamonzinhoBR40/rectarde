@@ -6,7 +6,7 @@ function Index(){
     return (
         <>
         <div>
-            <h1>Seja bem-vindo</h1>
+            <h1 style={{fontFamily: "Roboto", }}>Seja bem-vindo</h1>
             <h2>Receitas Rápidas</h2>
             <br />
             <p>Site com receitas rápidas e divertidas <br />
