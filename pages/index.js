@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link  from 'next/link'
 import Foto from '../imagens/imagem1.jpg'
 
-function HOME(){
+function Index(){
     return (
         <>
         <div>
@@ -13,7 +13,7 @@ function HOME(){
             que mata sua fome e blablabla</p>
             <br />
             <br />
-            <Link href="https://www.google.com"><button>CLIQUE PARA VER AS RECEITAS</button></Link>
+            <Link href="/home"><button>CLIQUE PARA COZINHAR</button></Link>
         </div>
         <div>
         <Image src={Foto}></Image>
@@ -22,4 +22,4 @@ function HOME(){
     )
 }
 
-export default HOME
+export default Index
